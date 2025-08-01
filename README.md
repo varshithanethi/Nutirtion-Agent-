@@ -125,7 +125,7 @@ These support RAG-style response generation when integrated into the Watsonx Age
 ### 🔹 API References after Deployment...
 ![api _references](links.jpg)
 ### 🔹 Resources List...
-![resourses_list.jpg](resourses_list.jpg)
+![resourses_list.jpg](resource_list.jpg)
 
 ---
 
