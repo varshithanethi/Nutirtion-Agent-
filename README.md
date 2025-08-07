@@ -4,16 +4,20 @@
 
 ---
 
-## 🧾 Problem Statement
+## 📟 Problem Statement
 
 Most existing diet apps deliver one-size-fits-all meal plans. They don’t scale, adapt to evolving needs, or explain choices. Real nutrition guidance requires empathy, personalization, and intelligence.
 
 **Our Solution:** A smart nutrition assistant that:
 
-* Understands users via text, voice, or image input
+* Accepts natural language inputs via chat
 * Generates contextual, Indian-vegetarian meal plans
 * Provides justifications for food selections
 * Stores feedback and adapts future recommendations
+* Uses curated global nutrition documents for more informed outputs
+* Works entirely within IBM Watsonx Agent Lab
+
+<img width="1024" height="573" alt="image" src="https://github.com/user-attachments/assets/bc2a835a-fec8-4117-9c01-609df7bb166b" />
 
 ---
 
@@ -22,9 +26,11 @@ Most existing diet apps deliver one-size-fits-all meal plans. They don’t scale
 * 🧠 Agentic AI with memory and reasoning
 * 📋 Personalized meal generation using Granite 3.3
 * 💬 Interactive prompts via Watsonx Prompt Lab
-* 📝 Stores user feedback using IBM Cloudant
-* 🧾 Knowledge-enhanced via vector index documents
+* 🗘️ Stores user feedback using IBM Cloudant
+* 📟 Knowledge-enhanced via vector index documents
 * 📦 Deployable and scalable using IBM Cloud services
+* 📊 Nutrition recommendations evolve as users interact more
+* ⏳ Fast startup with no installation required (runs on IBM Cloud Lite)
 
 ---
 
@@ -66,7 +72,6 @@ These support RAG-style response generation when integrated into the Watsonx Age
 
 ---
 
-
 ## 👤 End Users
 
 * Health-conscious individuals
@@ -76,6 +81,11 @@ These support RAG-style response generation when integrated into the Watsonx Age
 * Nutrition startup founders
 * Lifestyle bloggers
 * Personal trainers and gym members
+* Elderly or chronic illness patients
+* Students and hostel residents
+* Working professionals with sedentary lifestyle
+* Parents seeking nutrition for children
+* NGOs promoting food awareness
 
 ---
 
@@ -85,17 +95,21 @@ These support RAG-style response generation when integrated into the Watsonx Age
 * No app download, no manual tracking — just **smart, contextual wellness conversations**.
 * A powerful step toward **scaling personalized nutrition** for millions without hiring a dietician.
 * Think of it as **ChatGPT + your dietitian + health journal — all rolled into one.**
+* **Every response is personalized, explainable, and continuously improving.**
+* Works entirely on free-tier IBM Cloud — making **enterprise-level AI accessible to anyone**.
 
 ---
 
-## 📈 Future Enhancements
+## 📊 Future Enhancements
 
-* 🔍 Visual input: food photos or grocery labels
-* 🔊 Voice-based conversations
-* 🌐 Code Engine UI for React-based web frontend
-* 👩‍⚕️ Integration with wearable devices for health metrics
-* 🧬 Personalized plans using health record APIs
+* 🌐 Multi-language support for regional Indian languages
 * 📊 Dashboard to track long-term nutrition habits
+* 📲 Mobile-first UI using Watsonx-hosted frontend
+* 🚨 Allergy detection with prompt clarification
+* 🌿 Eco-conscious recommendations based on local sourcing
+* 💼 Integration with telehealth or e-pharmacy platforms
+* 📆 Meal calendar planner with reminders
+* 🛋️ Auto-generate grocery list by week
 
 ---
 
@@ -111,24 +125,38 @@ These support RAG-style response generation when integrated into the Watsonx Age
 * Deploy via embed snippet, Watsonx interface, or custom frontend
 
 ---
-## 🖼️ Screenshots
+
+## 🗼️ Screenshots
+
 ### 🔹 Setting up..
+
 ![Setup & preview image](setup.jpg)
+
 ### 🔹 Agent Instructions...
+
 ![Agent Instructions](agentins.jpg)
+
 ### 🔹 Quick Start Questions...
-![quick_start_questions](quickstart.jpg)
+
+![quick\_start\_questions](quickstart.jpg)
+
 ### 🔹 Tools used & Testing...
+
 ![Tool Used & Testing](tools.jpg)
-### 🔹 Deployment & Preview...
+
+### 🔹 Deployment & Preview\...
+
 ![Deployment & Testing](deployed.jpg)
+
 ### 🔹 API References after Deployment...
-![api _references](links.jpg)
+
+![api \_references](links.jpg)
+
 ### 🔹 Resources List...
-![resourses_list.jpg](resource_list.jpg)
+
+![resourses\_list.jpg](resource_list.jpg)
 
 ---
-
 
 ## 🔗 Useful Resources
 
@@ -140,20 +168,21 @@ These support RAG-style response generation when integrated into the Watsonx Age
 * [WHO Global Nutrition](https://www.who.int/health-topics/nutrition)
 * [Granite Documentation](https://www.ibm.com/granite/docs/)
 * [IBM SkillsBuild AI Courses](https://skillsbuild.org)
+* [Nutrition.gov](https://www.nutrition.gov/)
+* [MyPlate Nutrition Resources](https://www.myplate.gov/)
 
 ---
 
 ## 👩‍💻 Author
 
-**Varshitha Nethi** &#x20;
-Third-year student | IBM Hackathon 2025 Participant &#x20;
+**Varshitha Nethi**
+Third-year student | IBM Hackathon 2025 Participant
 🔗 [Connect on LinkedIn](https://www.linkedin.com/in/varshitha-nethi)
 
 ---
 
 ## 📄 License
- This project is licensed under the [MIT License](LICENSE).
----
 
+## This project is licensed under the [MIT License](LICENSE).
 
 
